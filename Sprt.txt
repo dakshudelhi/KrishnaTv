@@ -1,0 +1,54 @@
+#EXTINF:-1 tvg-id="1133" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1133.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 1 4K ENGLISH
+https://public.kliv.fun/RFUS5M/play.php?id=1133
+
+#EXTINF:-1 tvg-id="472294" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 1 FHD ENGLISH 4K..
+https://public.kliv.fun/RFUS5M/play.php?id=472294
+
+#EXTINF:-1 tvg-id="472278" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 1 FHD HINDI..
+https://public.kliv.fun/RFUS5M/play.php?id=472278
+
+#EXTINF:-1 tvg-id="1134" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1134.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 1 4K HINDI
+https://public.kliv.fun/RFUS5M/play.php?id=1134
+
+#EXTINF:-1 tvg-id="472295" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 1 FHD HINDI 4K..
+https://public.kliv.fun/RFUS5M/play.php?id=472295
+
+#EXTINF:-1 tvg-id="1124" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 4K
+https://public.kliv.fun/RFUS5M/play.php?id=1124
+
+#EXTINF:-1 tvg-id="472297" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 2 FHD 4K..
+https://public.kliv.fun/RFUS5M/play.php?id=472297
+
+#EXTINF:-1 tvg-id="472280" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 2 HINDI FHD..
+https://public.kliv.fun/RFUS5M/play.php?id=472280
+
+#EXTINF:-1 tvg-id="472281" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 2 FHD...
+https://public.kliv.fun/RFUS5M/play.php?id=472281
+
+#EXTINF:-1 tvg-id="1137" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1137.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 2 HINDI 4K
+https://public.kliv.fun/RFUS5M/play.php?id=1137
+
+#EXTINF:-1 tvg-id="1138" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1138.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 3 4K BK
+https://public.kliv.fun/RFUS5M/play.php?id=1138
+
+
+#EXTINF:-1 tvg-id="472282" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 1 FHD..
+https://public.kliv.fun/RFUS5M/play.php?id=472282
+
+#EXTINF:-1 tvg-id="1139" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1139.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 1 4K ENGLISH
+https://public.kliv.fun/RFUS5M/play.php?id=1139
+
+#EXTINF:-1 tvg-id="472298" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 1 FHD 4K..
+https://public.kliv.fun/RFUS5M/play.php?id=472298
+
+#EXTINF:-1 tvg-id="481683" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/78032.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 1 4K MALAYALAM
+https://public.kliv.fun/RFUS5M/play.php?id=481683
+
+#EXTINF:-1 tvg-id="472299" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 2 FHD 4K..
+https://public.kliv.fun/RFUS5M/play.php?id=472299
+
+#EXTINF:-1 tvg-id="1140" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1140.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 2 4K
+https://public.kliv.fun/RFUS5M/play.php?id=1140
+
+#EXTINF:-1 tvg-id="472283" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="SPORTS | CRICKET",STAR SPORTS SELECT 2 FHD..
+https://public.kliv.fun/RFUS5M/play.php?id=472283
