@@ -1,3 +1,5 @@
+#EXTM3U
+
 #EXTINF:-1 tvg-id="1133" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/1133.jpg" group-title="SPORTS | CRICKET",STAR SPORTS 1 4K ENGLISH
 https://public.kliv.fun/RFUS5M/play.php?id=1133
 
