@@ -17,11 +17,12 @@ jobs:
       - name: Fetch latest playlist
         run: |
           curl -L "https://jootv4.playlivtvlinks.workers.dev/" -o krishna.m3u
+          curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=KPXbaIFv" -o krishna5.m3u
 
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add krishna.m3u
+          git add krishna.m3u krishna5.m3u
           git commit -m "Auto update playlist (12h)" || echo "No changes"
           git push
