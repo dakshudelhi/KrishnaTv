@@ -1,6 +1,6 @@
 #EXTM3U
 #PLAYLIST: Playlivtv Exclusive - DASH + HLS Streaming
-#EXTINF:-1 group-title="INFO" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg",Token Valid: 3 days (69 hours)
+#EXTINF:-1 group-title="INFO" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg",Token Valid: 3 days (56 hours)
 http://playlivtv.whf.bz/info.m3u8
 #EXTINF:-1 group-title="INFO" tvg-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg",Expires: 13-Mar-2026 12:14
 http://playlivtv.whf.bz/info.m3u8
