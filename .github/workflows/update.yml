@@ -22,7 +22,7 @@ jobs:
       - name: Fetch latest playlist
         run: |
           curl -L "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u
-          curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o token.m3u
+          curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o krishna.m3u
           curl -L "https://stream.kliv.fun/allplus14M/playlist.html" -o exclusive.m3u
 
       - name: Commit and push changes
