@@ -1,37 +1,39 @@
 name: Update KrishnaTV Playlist
 
 on:
-  schedule:
-    - cron: "30 2 * * *"
-    - cron: "30 14 * * *"
-  workflow_dispatch:
+schedule:
+- cron: "30 2 * * *"
+- cron: "30 14 * * *"
+workflow_dispatch:
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
+update:
+runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: true
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v3
 
-      - name: Fetch latest playlist
-        run: |
-          curl -L "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u
-          curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o krishna.m3u
-          curl -L "https://stream.kliv.fun/allplus14M/playlist.html" -o exclusive.m3u
+  - name: Fetch latest playlist
+    run: |
+      curl -L "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u
+      curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o krishna.m3u
+      curl -L "https://stream.kliv.fun/allplus14M/playlist.html" -o exclusive.m3u
 
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          
-          git add .
-          
-          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Auto update playlist (12h)"
-          
-          git push
+  - name: Add timestamp (force change)
+    run: |
+      echo "Last update: $(date)" > update_log.txt
+
+  - name: Commit and push changes
+    run: |
+      git config --global user.name "github-actions"
+      git config --global user.email "actions@github.com"
+
+      git add .
+
+      git commit -m "Auto update playlist $(date)" || echo "No changes"
+
+      git push
