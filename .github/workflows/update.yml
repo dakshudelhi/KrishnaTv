@@ -17,17 +17,17 @@ steps:
   - name: Checkout repository
     uses: actions/checkout@v3
 
-  - name: Fetch latest playlist
+  - name: Fetch latest playlist (safe)
     run: |
-      curl -L "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u
-      curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o krishna.m3u
-      curl -L "https://stream.kliv.fun/allplus14M/playlist.html" -o exclusive.m3u
+      curl -L --fail "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u || echo "jplus failed"
+      curl -L --fail "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o krishna.m3u || echo "krishna failed"
+      curl -L --fail "https://stream.kliv.fun/allplus14M/playlist.html" -o exclusive.m3u || echo "exclusive failed"
 
   - name: Add timestamp (force change)
     run: |
       echo "Last update: $(date)" > update_log.txt
 
-  - name: Commit and push changes
+  - name: Commit and push changes (safe)
     run: |
       git config --global user.name "github-actions"
       git config --global user.email "actions@github.com"
@@ -36,4 +36,4 @@ steps:
 
       git commit -m "Auto update playlist $(date)" || echo "No changes"
 
-      git push
+      git push || echo "Push failed"
