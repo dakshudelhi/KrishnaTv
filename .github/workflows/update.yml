@@ -16,8 +16,10 @@ runs-on: ubuntu-latest
 steps:
   - name: Checkout repository
     uses: actions/checkout@v3
+    with:
+      persist-credentials: true
 
-  - name: Fetch playlists (independent)
+  - name: Fetch latest playlist (safe & independent)
     run: |
       echo "Downloading jplus..."
       curl -L "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u || echo "jplus failed"
@@ -32,13 +34,13 @@ steps:
     run: |
       echo "Last update: $(date)" > update_log.txt
 
-  - name: Commit and push
+  - name: Commit and push changes
     run: |
       git config --global user.name "github-actions"
       git config --global user.email "actions@github.com"
 
       git add .
 
-      git commit -m "Auto update $(date)" || echo "No changes"
+      git commit -m "Auto update playlist $(date)" || echo "No changes"
 
-      git push
+      git push || echo "Push failed"
