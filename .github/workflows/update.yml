@@ -20,10 +20,10 @@ jobs:
       - name: Fetch playlists
         run: |
           echo "Downloading jplus..."
-          curl -L "https://jootv12m.playlivtvlinks.workers.dev/" -o jplus.m3u || true
+          curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o token.m3u || true
 
           echo "Downloading krishna..."
-          curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o krishna.m3u || true
+          curl -L "https://jootv19m.playlivtvlinks.workers.dev/" -o krishna.m3u || true
 
           echo "Downloading exclusive..."
           curl -L "https://stream.kliv.fun/allplus14M/playlist.html" -o exclusive.m3u || true
