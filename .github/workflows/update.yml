@@ -23,7 +23,7 @@ jobs:
           curl -L "https://stream.kliv.fun/system/exc2/playlist.php?token=Hr6hugGB" -o token.m3u || true
 
           echo "Downloading krishna..."
-          curl -L "http://stream.kliv.fun/jk.html" -o krishna.m3u || true
+          curl -L "http://stream.kliv.fun/allplus31m/playlist.html" -o krishna.m3u || true
 
           echo "Downloading exclusive..."
           curl -L "https://raw.githubusercontent.com/fakeall12398-sketch/JIO_TV/refs/heads/main/jstar.m3u" -o exclusive.m3u || true
