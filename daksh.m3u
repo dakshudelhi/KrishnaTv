@@ -1419,107 +1419,107 @@ https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/
 http://103.113.103.202:8001/play/a02z/index.m3u8
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" group-title="All",Sony Entertainment Television HD (720p)
 http://217.20.112.199/sethd/index.m3u8
-#EXTINF:-1 tvg-id="SonyMax.in@SD" group-title="All",Sony Max (576p)
+#EXTINF:-1 tvg-id="SonyMax.in@SD" group-title="All",Sony_Max  (576p)
 http://103.113.103.202:8001/play/a025/index.m3u8
-#EXTINF:-1 tvg-id="SonyMax2.in@SD" group-title="All",Sony Max 2 (576p)
+#EXTINF:-1 tvg-id="SonyMax2.in@SD" group-title="All",Sony_Max 2 (576p)
 http://103.113.103.202:8001/play/a002/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@SD" group-title="All",Sony SAB (720p)
+#EXTINF:-1 tvg-id="SonySAB.in@SD" group-title="All",Sony_SAB (720p)
 http://103.229.254.25:7001/play/a09s/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@HD" group-title="All",Sony SAB HD (1080p)
+#EXTINF:-1 tvg-id="SonySAB.in@HD" group-title="All",Sony_SAB HD (1080p)
 http://217.20.112.199/sabtvhd/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="All",Sony Sports Ten 1 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="All",Sony_Sports Ten 1 HD (1080p)
 http://103.121.6.5:8000/play/a05w/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" group-title="All",Sony Sports Ten 2 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" group-title="All",Sony_Sports Ten 2 HD (1080p)
 http://103.229.254.25:7001/play/a02t/index.m3u8
 #EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" group-title="All",Sony Sports Ten 3 Hindi (576p)
 http://103.229.254.25:7001/play/a09q/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" group-title="All",Sony Sports Ten 3 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" group-title="All",Sony_Sports Ten 3 Hindi HD (1080p)
 http://116.90.120.128:8000/play/a0jr/index.m3u88
-#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" group-title="All",Sony Sports Ten 5 HD (1080p)
+#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" group-title="All",Sony_Sports Ten 5 HD (1080p)
 http://103.229.254.25:7001/play/a0dw/index.m3u8
-#EXTINF:-1 tvg-id="SonyYay.in@SD" group-title="All",Sony Yay! (576p)
+#EXTINF:-1 tvg-id="SonyYay.in@SD" group-title="All",Sony_Yay! (576p)
 http://103.229.254.25:7001/play/a0cl/index.m3u8
-#EXTINF:-1 tvg-id="StarBharat.in@SD" group-title="All",Star Bharat (576p)
+#EXTINF:-1 tvg-id="StarBharat.in@SD" group-title="All",Star_Bharat (576p)
 http://103.113.103.202:8001/play/a01z/index.m3u8
-#EXTINF:-1 tvg-id="StarBharat.in@HD" group-title="All",Star Bharat HD (1080p)
+#EXTINF:-1 tvg-id="StarBharat.in@HD" group-title="All",Star_Bharat HD (1080p)
 http://103.121.6.5:8000/play/a05z/index.m3u8
-#EXTINF:-1 tvg-id="" group-title="All",Star Family (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="" group-title="All",Star_Family (576p) [Not 24/7]
 http://c0.cdn.trinity-tv.net/stream/zfmjgma9zn46fa797ez9fgkw7msh9mj4tppspg23gey6mmx5fqiy7ky3jqx4uhgsfsrd8r76si8ykb2anw9442g4qkq5fzpdvwdqf5te24ixu9zrx3aesm9fzt59q5y2s8qwgbqhvf6d3z5bjy3qb2t4.m3u8
-#EXTINF:-1 tvg-id="StarGold2.in@SD" group-title="All",Star Gold 2 (576p)
+#EXTINF:-1 tvg-id="StarGold2.in@SD" group-title="All",Star_Gold 2 (576p)
 http://161.248.38.40:8000/play/a06z/index.m3u8
-#EXTINF:-1 tvg-id="StarGold2.in@HD" group-title="All",Star Gold 2 HD (1080p)
+#EXTINF:-1 tvg-id="StarGold2.in@HD" group-title="All",Star_Gold 2 HD (1080p)
 http://103.229.254.25:7001/play/a0d0/index.m3u8
-#EXTINF:-1 tvg-id="StarGold.in@HD" group-title="All",Star Gold HD (1080p)
+#EXTINF:-1 tvg-id="StarGold.in@HD" group-title="All",Star_Gold HD (1080p)
 http://103.229.254.25:7001/play/a0dd/index.m3u8
-#EXTINF:-1 tvg-id="StarGold.in@HD" group-title="All",Star Gold HD (480p)
+#EXTINF:-1 tvg-id="StarGold.in@HD" group-title="All",Star_Gold HD (480p)
 http://103.99.249.139/stargold/index.m3u8
-#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" group-title="All",Star Gold Romance (576p)
+#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" group-title="All",Star_Gold Romance (576p)
 http://103.113.103.202:8001/play/a029/index.m3u8
-#EXTINF:-1 tvg-id="StarGoldSelect.in@HD" group-title="All",Star Gold Select HD (1080p)
-http://103.229.254.25:7001/play/a032/index.m3u8
-#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" group-title="All",Star Gold Thrills (576p)
+#EXTINF:-1 tvg-id="StarGoldSelect.in@HD" group-title="All",Star_Gold Select HD (1080p)
+http://103.229.254.25:7001/play/a032/index.m3u
+#EXTINF:-1 tvg-id="StarGoldThrills.in@SD" group-title="All",Star_Gold Thrills (576p)
 http://161.248.38.40:8000/play/a06v/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1.in@HD" group-title="All",Star Sports 1 HD (1080p)
+#EXTINF:-1 tvg-id="StarSports1.in@HD" group-title="All",Star_Sports 1 HD (1080p)
 http://103.229.254.25:7001/play/a0a0/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" group-title="All",Star Sports 1 Hindi (576p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@SD" group-title="All",Star_Sports 1 Hindi (576p)
 http://161.248.38.40:8000/play/a071/index.m3u8
-#EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" group-title="All",Star Sports 1 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports1Hindi.in@HD" group-title="All",Star_Sports 1 Hindi HD (1080p)
 http://161.248.38.40:8000/play/a06n/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2.in@HD" group-title="All",Star Sports 2 HD (1080p)
+#EXTINF:-1 tvg-id="StarSports2.in@HD" group-title="All",Star_Sports 2 HD (1080p)
 http://103.121.6.5:8000/play/a05u/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" group-title="All",Star Sports 2 Hindi HD (1080p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" group-title="All",Star_Sports 2 Hindi HD (1080p)
 http://103.113.103.202:8001/play/a028/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" group-title="All",Star Sports 2 Hindi HD (480p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@HD" group-title="All",Star_Sports 2 Hindi HD (480p)
 http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8
-#EXTINF:-1 tvg-id="StarSports3.in@SD" group-title="All",Star Sports 3 (576p)
+#EXTINF:-1 tvg-id="StarSports3.in@SD" group-title="All",Star_Sports 3 (576p)
 http://103.121.6.5:8000/play/a05y/index.m3u8
-#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" group-title="All",Star Sports Select 1 HD (1080p)
+#EXTINF:-1 tvg-id="StarSportsSelect1.in@HD" group-title="All",Star_Sports Select 1 HD (1080p)
 http://103.113.103.202:8001/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="All",Star Sports Select 2 HD (1080p)
+#EXTINF:-1 tvg-id="StarSportsSelect2.in@HD" group-title="All",Star_Sports Select 2 HD (1080p)
 http://103.113.103.202:8001/play/a02q/index.m3u8
-#EXTINF:-1 tvg-id="StarPlus.in@SD" group-title="All",StarPlus (576p)
+#EXTINF:-1 tvg-id="StarPlus.in@SD" group-title="All",Star_Plus (576p)
 http://103.229.254.25:7001/play/a09p/index.m3u8
-#EXTINF:-1 tvg-id="StarPlus.in@HD" group-title="All",StarPlus HD (1080p)
+#EXTINF:-1 tvg-id="StarPlus.in@HD" group-title="All",Star_Plus HD (1080p)
 http://103.229.254.25:7001/play/a09z/index.m3u8
-#EXTINF:-1 tvg-id="ZeeBollymovies.in@SD" group-title="All",Zee Bollymovies (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ZeeBollymovies.in@SD" group-title="All",Zee_Bollymovies (1080p) [Geo-blocked]
 https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" group-title="All",Zee Bollywood (576p)
+#EXTINF:-1 tvg-id="ZeeBollywood.in@SD" group-title="All",Zee_Bollywood (576p)
 http://161.248.38.40:8000/play/a075/index.m3u8
-#EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" group-title="All",Zee Cine Classic (1080p)
+#EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" group-title="All",Zee_Cine Classic (1080p)
 https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@HD" group-title="All",Zee Cinema HD (1080p)
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD" group-title="All",Zee_Cinema HD (1080p)
 http://103.113.103.202:8001/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="ZeeCinema.in@HD" group-title="All",Zee Cinema HD (480p)
+#EXTINF:-1 tvg-id="ZeeCinema.in@HD" group-title="All",Zee_Cinema HD (480p)
 http://103.99.249.139/zeecinema/index.m3u8
-#EXTINF:-1 tvg-id="ZeeClassic.in@SD" group-title="All",Zee Classic (576p)
+#EXTINF:-1 tvg-id="ZeeClassic.in@SD" group-title="All",Zee_Classic (576p)
 http://161.248.38.40:8000/play/a06a/index.m3u8
-#EXTINF:-1 tvg-id="ZeeComedyNation.in@HD" group-title="All",Zee Comedy Nation (1080p)
+#EXTINF:-1 tvg-id="ZeeComedyNation.in@HD" group-title="All",Zee_Comedy Nation (1080p)
 https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeDilSe.in@HD" group-title="All",Zee Dil Se (1080p)
+#EXTINF:-1 tvg-id="ZeeDilSe.in@HD" group-title="All",Zee_Dil Se (1080p)
 https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeHorrorNights.in@HD" group-title="All",Zee Horror Nights (1080p)
+#EXTINF:-1 tvg-id="ZeeHorrorNights.in@HD" group-title="All",Zee_Horror Nights (1080p)
 https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@SD" group-title="All",Zee TV (576p)
+#EXTINF:-1 tvg-id="ZeeTV.in@SD" group-title="All",Zee_TV (576p)
 http://161.248.38.40:8000/play/a08v/index.m3u8
-#EXTINF:-1 tvg-id="ZeeTV.in@HD" group-title="All",Zee TV HD (1080p)
+#EXTINF:-1 tvg-id="ZeeTV.in@HD" group-title="All",Zee_TV HD (1080p)
 http://103.229.254.25:7001/play/a0cs/index.m3u8
-#EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" group-title="All",Star Sports 2 Hindi (576p)
+#EXTINF:-1 tvg-id="StarSports2Hindi.in@SD" group-title="All",Star_Sports 2 Hindi (576p)
 http://111.88.78.21:8000/play/a0x8/index.m3u8
-#EXTINF:-1 tvg-id="HungamaTV.in@SD" group-title="All",Hungama TV (576p)
+#EXTINF:-1 tvg-id="HungamaTV.in@SD" group-title="All",Hungama_TV (576p)
 http://111.88.78.21:8000/play/a0z1/index.m3u8
-#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" group-title="All",Disney International HD (576p)
+#EXTINF:-1 tvg-id="DisneyInternationalHD.in@SD" group-title="All",Disney_International HD (576p)
 http://111.88.78.21:8000/play/a0qo/index.m3u8
-#EXTINF:-1 tvg-id="SuperHungama.in@SD" group-title="All",Super Hungama (576p)
+#EXTINF:-1 tvg-id="SuperHungama.in@SD" group-title="All",Super_Hungama (576p)
 http://103.161.153.165:8000/play/a05a/index.m3u8
-#EXTINF:-1 tvg-id="Goldmines2.in@SD" group-title="All",Goldmines 2 (576p)
+#EXTINF:-1 tvg-id="Goldmines2.in@SD" group-title="All",Goldmines_2 (576p)
 https://cdn-2.pishow.tv/live/1460/master.m3u8
 
 <html> 
-#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star Sports 1 HD -
+#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star_Sports_1 HD -
 https://public.kliv.fun/TPv1/play.php?id=a0a0
-#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star Sports 1 Hindi -
+#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star_Sports_1 Hindi -
 https://public.kliv.fun/TPv1/play.php?id=a0dn
-#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star Sports 2 Hindi -
+#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star_Sports_2 Hindi -
 https://public.kliv.fun/TPv1/play.php?id=a0aj
-#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star Sports 2 Hindi HD -
+#EXTINF:-1 group-title="TP LITE Ã°ÂŸÂÂ¿",Star_Sports_2 Hindi HD -
 https://public.kliv.fun/TPv1/play.php?id=a0cp
