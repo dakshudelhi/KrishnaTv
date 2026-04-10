@@ -20,7 +20,7 @@ jobs:
       - name: Fetch playlists
         run: |
           echo "Downloading jplus..."
-          curl -L "https://raw.githubusercontent.com/dakshudelhi/jio-m3u/refs/heads/main/playlist.m3u" -o jplus.m3u || true
+          curl -L "https://stream.kliv.fun/system/startv/playlist.php?token=3u3eOyiA" -o jplus.m3u || true
 
           echo "Downloading krishna..."
           curl -L "https://asbestos-titanium-pens-months.trycloudflare.com/playlist.php" -o krishna.m3u || true
