@@ -2,6 +2,7 @@ name: Update KrishnaTV Playlist
 
 on:
   schedule:
+    - cron: "0 * * * *"   # हर घंटे Sony update
     - cron: "30 2 * * *"
     - cron: "30 14 * * *"
   workflow_dispatch:
@@ -27,6 +28,26 @@ jobs:
 
           echo "Downloading exclusive..."
           curl -L "https://raw.githubusercontent.com/fakeall12398-sketch/JIO_TV/refs/heads/main/js Biplobtar.m3u" -o exclusive.m3u || true
+
+      - name: Download Sony Playlist
+        run: |
+          curl -L "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/refs/heads/main/playlist.m3u" -o sony.m3u || true
+
+      - name: Update daksh.m3u with Sony Channels
+        run: |
+          touch daksh.m3u
+
+          # Remove old Sony section
+          if grep -q "#SONY-START" daksh.m3u; then
+            sed -i '/#SONY-START/,/#SONY-END/d' daksh.m3u
+          fi
+
+          # Add fresh Sony channels
+          echo "" >> daksh.m3u
+          echo "#SONY-START" >> daksh.m3u
+          cat sony.m3u >> daksh.m3u
+          echo "#SONY-END" >> daksh.m3u
+
       - name: Add timestamp
         run: |
           echo "Last update: $(date)" > update_log.txt
