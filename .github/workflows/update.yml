@@ -2,7 +2,7 @@ name: Update KrishnaTV Playlist
 
 on:
   schedule:
-    - cron: "0 * * * *"   # हर घंटे Sony update
+    - cron: "0 * * * *"
     - cron: "30 2 * * *"
     - cron: "30 14 * * *"
   workflow_dispatch:
@@ -42,11 +42,38 @@ jobs:
             sed -i '/#SONY-START/,/#SONY-END/d' daksh.m3u
           fi
 
-          # Add fresh Sony channels
-          echo "" >> daksh.m3u
-          echo "#SONY-START" >> daksh.m3u
-          cat sony.m3u >> daksh.m3u
-          echo "#SONY-END" >> daksh.m3u
+          # Fix broken Sony URLs
+          awk '
+          /^hdnea=/ {
+              sub(/^hdnea=/,"")
+              printf "%s%s\n", prev, $0 >> "fixed_sony.m3u"
+              prev=""
+              next
+          }
+
+          {
+              if (prev != "") {
+                  print prev >> "fixed_sony.m3u"
+              }
+              prev=$0
+          }
+
+          END {
+              if (prev != "") {
+                  print prev >> "fixed_sony.m3u"
+              }
+          }
+          ' sony.m3u
+
+          # Append Sony playlist without duplicate header
+          {
+            echo ""
+            echo "#SONY-START"
+
+            tail -n +2 fixed_sony.m3u
+
+            echo "#SONY-END"
+          } >> daksh.m3u
 
       - name: Add timestamp
         run: |
