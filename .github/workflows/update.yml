@@ -33,16 +33,21 @@ jobs:
         run: |
           curl -L "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/refs/heads/main/playlist.m3u" -o sony.m3u || true
 
+      - name: Clean HTML from daksh.m3u
+        run: |
+          sed -i '/<html>/,$d' daksh.m3u || true
+
       - name: Update daksh.m3u with Sony Channels
         run: |
           touch daksh.m3u
+          rm -f fixed_sony.m3u
 
           # Remove old Sony section
           if grep -q "#SONY-START" daksh.m3u; then
             sed -i '/#SONY-START/,/#SONY-END/d' daksh.m3u
           fi
 
-          # Fix broken Sony URLs
+          # Fix split Sony URLs
           awk '
           /^hdnea=/ {
               sub(/^hdnea=/,"")
@@ -65,7 +70,7 @@ jobs:
           }
           ' sony.m3u
 
-          # Append Sony playlist without duplicate header
+          # Append Sony channels
           {
             echo ""
             echo "#SONY-START"
