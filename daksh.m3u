@@ -6,13 +6,6 @@ https://cdn-3.pishow.tv/live/230/master.m3u8
 #EXTINF:-1 tvg-id="ShemarooUmang.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHEMAROO_UMANG/images/LOGO_HD/image.png" group-title="Entertainment",Shemaroo Umang (720p)
 https://mumt04.tangotv.in/SHEMAROOUMANG/index.m3u8
 
-#EXTINF:-1 tvg-id="551" group-title="Kids" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png",SONY HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b9d4acedc66c5660a1e06197a55bccd2:dd53bab1a42f41ae8f0a5c8fd286f456
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie":"__hdnea__=st=1762604715~exp=1762691115~acl=/*~hmac=fbdf03a26e307bbc712dc127e96aa5a4d1bd3077e2da7c5325ff3211c7f13a90"}
-https://jiotvpllive.cdn.jio.com/bpk-tv/TEST14_HD_MOB/WDVLive/index.mpd?__hdnea__=st=1762604715~exp=1762691115~acl=/*~hmac=fbdf03a26e307bbc712dc127e96aa5a4d1bd3077e2da7c5325ff3211c7f13a90&xxx=%7Ccookie=__hdnea__=st=1762604715~exp=1762691115~acl=/*~hmac=fbdf03a26e307bbc712dc127e96aa5a4d1bd3077e2da7c5325ff3211c7f13a90
-
 
 #EXTINF:-1 tvg-id="IN38000072R" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20241211T020400SQUARE.png" tvg-name="IN38000072R" group-title="Â§AMSUNGðº Movies",The Movie Club1
 https://jmp2.uk/stvp-IN38000072R
@@ -1324,28 +1317,7 @@ http://161.248.38.40:8000/play/a068/index.m3u8
 https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" group-title="All",Sony Entertainment Television HD (1080p)
 http://103.113.103.202:8001/play/a02z/index.m3u8
-#EXTINF:-1 tvg-id="SonyEntertainmentTelevision.in@HD" group-title="All",Sony Entertainment Television HD (720p)
-http://217.20.112.199/sethd/index.m3u8
-#EXTINF:-1 tvg-id="SonyMax.in@SD" group-title="All",Sony_Max  (576p)
-http://103.113.103.202:8001/play/a025/index.m3u8
-#EXTINF:-1 tvg-id="SonyMax2.in@SD" group-title="All",Sony_Max 2 (576p)
-http://103.113.103.202:8001/play/a002/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@SD" group-title="All",Sony_SAB (720p)
-http://103.229.254.25:7001/play/a09s/index.m3u8
-#EXTINF:-1 tvg-id="SonySAB.in@HD" group-title="All",Sony_SAB HD (1080p)
-http://217.20.112.199/sabtvhd/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen1.in@HD" group-title="All",Sony_Sports Ten 1 HD (1080p)
-http://103.121.6.5:8000/play/a05w/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen2.in@HD" group-title="All",Sony_Sports Ten 2 HD (1080p)
-http://103.229.254.25:7001/play/a02t/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@SD" group-title="All",Sony Sports Ten 3 Hindi (576p)
-http://103.229.254.25:7001/play/a09q/index.m3u8
-#EXTINF:-1 tvg-id="SonySportsTen3Hindi.in@HD" group-title="All",Sony_Sports Ten 3 Hindi HD (1080p)
-http://116.90.120.128:8000/play/a0jr/index.m3u88
-#EXTINF:-1 tvg-id="SonySportsTen5.in@HD" group-title="All",Sony_Sports Ten 5 HD (1080p)
-http://103.229.254.25:7001/play/a0dw/index.m3u8
-#EXTINF:-1 tvg-id="SonyYay.in@SD" group-title="All",Sony_Yay! (576p)
-http://103.229.254.25:7001/play/a0cl/index.m3u8
+
 #EXTINF:-1 tvg-id="StarBharat.in@SD" group-title="All",Star_Bharat (576p)
 http://103.113.103.202:8001/play/a01z/index.m3u8
 #EXTINF:-1 tvg-id="StarBharat.in@HD" group-title="All",Star_Bharat HD (1080p)
