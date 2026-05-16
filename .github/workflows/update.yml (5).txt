@@ -1,0 +1,43 @@
+name: Update KrishnaTV Playlist
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+    - cron: "30 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch playlists
+        run: |
+          echo "Downloading jplus..."
+          curl -L "https://stream.kliv.fun/system/startv/playlist.php?token=3u3eOyiA" -o jplus.m3u || true
+
+          echo "Downloading krishna..."
+          curl -L "https://stream.kliv.in/Jiotv90/playlist.html" -o krishna.m3u || true
+
+          echo "Downloading exclusive..."
+          curl -L "https://raw.githubusercontent.com/fakeall12398-sketch/JIO_TV/refs/heads/main/js Biplobtar.m3u" -o exclusive.m3u || true
+      - name: Add timestamp
+        run: |
+          echo "Last update: $(date)" > update_log.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add .
+
+          git commit -m "Auto update $(date)" || true
+
+          git push || true
