@@ -1,0 +1,52 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="173" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png" group-title="News",Aaj Tak
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="177" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ABP_News_India.png" group-title="News",ABP News India
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="2079" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bharat_24.png" group-title="News",Bharat 24
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="2353" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bharat_Express.png" group-title="News",Bharat Express
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="927" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/First_India_News.png" group-title="News",First India News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="502" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Tez.png" group-title="News",Good News Today
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="513" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_News_Rajasthan.png" group-title="News",India News Rajasthan
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="493" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_Today.png" group-title="News",India Today
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="235" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_TV.png" group-title="News",India TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="255" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NDTV_24x7.png" group-title="News",NDTV 24x7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="258" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NDTV_India.png" group-title="News",NDTV India
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="501" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_24.png" group-title="News",News 24
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="499" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation.png" group-title="News",News Nation
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="1403" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Republic_Bharat.png" group-title="News",Republic Bharat
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="858" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Republic_TV.png" group-title="News",Republic TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="520" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_Rajyasabha.png" group-title="News",Sansad TV HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="1886" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sansad_TV_RajyaSabha.png" group-title="News",Sansad TV Rajya Sabha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="1240" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TEST10_HD.png" group-title="News",TEST10 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="1906" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Times_Now_Navbharat.png" group-title="News",Times Now Navbharat
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="876" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Times_Now_HD.png" group-title="News",Times Now World
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="1251" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Bharatvarsh.png" group-title="News",TV9 Bharatvarsh
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="531" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ETV_RAJASTHAN.png" group-title="News",News18 RAJASTHAN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="231" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/IBN_7.png" group-title="News",News 18 India
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="498" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_news.png" group-title="News",India news
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTINF:-1 tvg-id="1240" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TEST10_HD.png" group-title="News",COLORS HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
