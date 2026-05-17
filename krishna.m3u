@@ -1,29 +1,4 @@
- <html> 
- 
-<head> 
-    <script src="https://cdn.jsdelivr.net/npm/disable-devtool" disable-devtool-auto="true" clear-log="true" 
-        disable-select="true" disable-copy="true" disable-cut="true" disable-paste="true"></script> 
-    <script src="prodevs.js"></script> 
-    <script src="aes.js"></script> 
-    <script src="main.js"></script> <!-- Your main JavaScript file --> h
-</head> 
- 
-<body> 
-    <script type="text/javascript">window.location = "https://t.me/playlivtvlinks"</script> 
-</body> 
- 
-</html> 
- 
-<script>
-
-#EXTINF:-1 tvg-id="" group-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="1▁𝐏𝐥𝐚𝐲𝐥𝐢𝐯𝐭𝐯 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰▁" tvg-logo="https://i.imghippo.com/files/gz4Fk1727854457.jpg", t.me/Playlivtvlinks
-http://playlivtv1.portlive.whf.bz/intro/playlivtv.m3u8
-
-#EXTINF:-1 tvg-id="" group-logo="https://i.ibb.co/9H3JfNS4/IMG-20250216-215224-720.jpg" group-title="▁•☆•𝐏𝐥𝐚𝐲𝐥𝐢𝐯𝐭𝐯 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰•☆•▁" tvg-logo="https://i.imghippo.com/files/gz4Fk1727854457.jpg", t.me/Playlivtvlinks
-http://playlivtv1.portlive.whf.bz/intro/playlivtv.m3u8
-
-
-#EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz
+#EXTM3U
 
 #EXTINF:-1 tvg-id="1" tvg-name="SET HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="SONYLI√" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", SET HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
